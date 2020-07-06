@@ -1,4 +1,9 @@
-﻿#header{
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
+#header{
     position: fixed;
     top: 0;
     right: 0;
@@ -18,15 +23,16 @@
 {
     height: 200px;
     width:280px; 
-    z-index: 100;
+    z-index: 8;
     float: left;
     margin-top: -65px;
 
-   
+   position:relative;
     transition: 0.7s;
     behavior: smooth;
 
 }
+
 @media screen and (max-width: 1257px) {
 
     .sidebar {
@@ -113,6 +119,13 @@
  right:0;
 }
 
+
+.overlayed {
+    background-color: rgba(0,0,0,.6);
+}
+
+
+
 .row{
    left: 0;
    bottom: 0;
@@ -120,12 +133,9 @@
    height: 50%;
    background-color: white;
    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: center;
-    padding-right: center;
+    padding-top: 6.8%;
+    padding-bottom: 0.7%;
      z-index: -1;
-  padding-top: 100px;
   display: flex;
   align-items: center;
 }
@@ -178,7 +188,10 @@
    padding-bottom: 10px;
     
 }
- .navBar a:link, .footer1 a:link {
+
+
+
+    .navBar a:link, .footer1 a:link {
         text-decoration: none;
         color: white;
         padding-right: 20px;
@@ -210,6 +223,7 @@
     text-decoration: none;
 }
 
+
     .navBar{
      float: right;
      padding-right: 260px;
@@ -224,20 +238,24 @@
     padding-top: 7px;
 
 }
-#style2{
+#style2 {
     color: midnightblue;
     font-size: 21px;
-    font-weight:200;
-    font-family: sans-serif,"Comic Sans MS", cursive;
+    font-weight: 200;
+    font-family: sans-serif,Arial, Helvetica;
+ 
 }
 #style1{
     color: midnightblue;
     font-weight: bold;
     font-size: 45px;
-    font-family: "Segoe UI","Comic Sans MS", cursive;
-    
-
+    font-family: "Segoe UI";
+  
 }
+.col-sm-6 {
+    margin: 0 0 2.04%;
+}
+
 #copyright{
     color: grey;
     font-weight: normal;
@@ -252,7 +270,7 @@
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("buildings.jpg");
 
-    width: 100vw;
+    width: 100%;
 
     height: 50vh;
 
@@ -270,15 +288,15 @@
 
 .column {
 
-   padding-right: 30px; 
+   padding-right: 2.04%; 
 
   float: left;
 
   width: 50%;
 
-  padding: 10px;
+  padding: 0.7%;
 
-  height: 300px; 
+  height: 20.4%;
 
    
 
@@ -286,15 +304,15 @@
 
 .column2 {
 
-   padding-top: 30px;
+   padding-top: 2.04%;
 
   float: left;
 
   width: 20%;
 
-  padding: 20px;
+  padding: 1.4%;
 
-  height: 200px; 
+  height: 13.6%;
 
   
 
@@ -318,9 +336,9 @@
 
     text-align: center;
 
-    padding-left: 300px;
+    padding-left: 20.4%;
 
-    padding-right: 20px;
+    padding-right: 1.4%;
 
 }
 
@@ -386,8 +404,8 @@
 
 
 #contentText{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 13.6%;
+    padding-right: 13.6%;
     font-size: 15px;
     color: midnightblue;
 }
@@ -406,7 +424,7 @@
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("investor.jpg");
 
-    width: 100vw;
+    width: 100%;
 
     height: 50vh;
 
@@ -455,7 +473,7 @@
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("causeBanner.jpg");
 
-    width: 100vw;
+    width:100%;
 
     height: 50vh;
 
@@ -476,7 +494,7 @@
 
 .contactHeader {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("contact.jpg");
-    width: 100vw;
+    width: 100%;
     height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -500,10 +518,11 @@
 
 .contactOuterLayer {
     border-color: white;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin:auto;
-    width:50%;
+    padding-top: 1.7%;
+    padding-bottom: 1.7%;
+    margin: auto;
+   
+    max-width: 1000px;
 }
 
 .contactContent {
@@ -512,7 +531,7 @@
     color: midnightblue;
     width: 400px;
     height: 300px;
-    padding: 15px;
+    padding: 1.02%;
     background-color: white;
     box-shadow: 0 0 20px grey;
     margin:auto;
