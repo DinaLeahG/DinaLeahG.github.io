@@ -27,6 +27,91 @@
     behavior: smooth;
 
 }
+@media screen and (max-width: 1257px) {
+
+    .sidebar {
+        padding-top: 15px;
+  
+       
+    }
+
+        .sidebar a {
+            font-size: 18px;
+           
+        }
+
+        #theBar{
+            position:fixed;
+        }
+    .navBar {
+        display: none;
+        visibility: hidden;
+    }
+
+   
+   
+}
+
+.sidebar {
+    height: 45%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(220,220,220,0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+    .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: midnightblue;
+        display: block;
+        transition: 0.3s;
+    
+    }
+
+        .sidebar a:hover {
+            color: #f1f1f1;
+            text-decoration:none;
+        }
+
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+       
+    }
+
+.openbtn {
+    font-size: 18px;
+    cursor: pointer;
+    background-color:midnightblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+    .openbtn:hover {
+        background-color: none;
+        border: none;
+        outline: none;
+    }
+#barContent {
+    transition: margin-left .5s;
+    padding: 16px;
+   
+}
+#theBar{
+ z-index:9;
+ top:0;
+ right:0;
+}
 
 .row{
    left: 0;
