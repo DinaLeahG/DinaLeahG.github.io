@@ -25,4 +25,21 @@ function topFunction() {
   window.scrollTo({top: 0, behavior: 'smooth'});
 
 }
+function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("barContent").style.marginLeft = "250px";
+
+
+}
+   
+function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("barContent").style.marginLeft = "0";
+
+
+  
+}
+
+
+
 
