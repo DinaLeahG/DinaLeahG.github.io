@@ -34,7 +34,6 @@
 }
 
 @media screen and (max-width: 1257px) {
-
     .sidebar {
         padding-top: 15px;
   
@@ -53,10 +52,21 @@
         display: none;
         visibility: hidden;
     }
-
    
    
 }
+@media screen and (max-width:900px){
+    #col2 {
+        width: 50%;
+        padding: 0.4%;
+        background-color: midnightblue;
+    }
+    #m {
+        padding-left: 0.0%;
+    }
+
+  
+    }
 
 .sidebar {
     height: 45%;
@@ -176,6 +186,7 @@
 
 
 
+
 .footer1 {
    left: 0;
    bottom: 0;
@@ -187,6 +198,8 @@
    padding-bottom: 0.7%;
     
 }
+
+
 
     .navBar a:link, .footer1 a:link {
         text-decoration: none;
@@ -300,19 +313,12 @@
 }
 
 .column2 {
-
-   padding-top: 2.04%;
-
-  float: left;
-
-  width: 294px;
-
-  padding: 20px;
-
-  height: 200px;
-
-  
-
+    padding-top: 30px;
+    float: left;
+    width: 20%;
+    padding: 20px;
+    height: 200px;
+    background-color: midnightblue;
 }
 
 .wordsCol2{
@@ -336,7 +342,8 @@
     padding-left: 20.4%;
 
     padding-right: 1.4%;
-	padding-bottom:0.7%;
+
+    padding-bottom:2.7%;
 
 }
 
