@@ -64,6 +64,9 @@
     #m {
         padding-left: 0.0%;
     }
+    .footer1{
+        
+    }
 
   
     }
@@ -204,27 +207,27 @@
     .navBar a:link, .footer1 a:link {
         text-decoration: none;
         color: white;
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 1.4%;
+        padding-left: 1.4%;
     }
     .navBar a:visited, .footer1 a:visited {
         text-decoration: none;
         color: white;
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 1.4%;
+        padding-left: 1.4%;
     }
     .navBar a:hover, .footer1 a:hover {
         text-decoration: none;
         color: lightgrey;
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 1.4%;
+        padding-left: 1.4%;
     }
 
     .navBar a:active, .footer1 a:active {
         text-decoration: none;
         color: lightgrey;
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 1.4%;
+        padding-left: 1.4%;
     }
 .style4, .footer1{
     color: white;
@@ -249,31 +252,28 @@
 
 }
 #style2 {
-    color: midnightblue;
+    font-family: sans-serif,arial;
+    width:100%;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 21px;
+    color:midnightblue;
     font-weight: 200;
-    font-family: sans-serif,Arial, Helvetica;
+    
  
 }
 #style1{
-    color: midnightblue;
+    padding-top: 40px;
+    font-family: "Segoe UI",sans-serif;
     font-weight: bold;
-    font-size: 45px;
-    font-family: "Segoe UI";
-  
-}
-.col-sm-6 {
-    margin: 0 0 2.04%;
+    font-size:45px;
+    color:midnightblue;
 }
 
 #copyright{
     color: grey;
     font-weight: normal;
     font-size: 13px;
-}
-.container .item{
-  height: 500px;
-
 }
 
 .aboutHeader {
@@ -571,4 +571,10 @@
     padding-bottom: 8.2%;
     padding-left: 8.2%;
     padding-right: 8.2%;
+}
+
+.boxer{
+    padding: 6.8%;
+    padding-top: 0.7%;
+    vertical-align: middle;
 }
