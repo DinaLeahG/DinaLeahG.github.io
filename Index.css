@@ -204,26 +204,51 @@
 
 
 
-    .navBar a:link, .footer1 a:link {
+
+    .navBar a:link{
+        text-decoration: none;
+        color: white;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .footer1 a:link {
         text-decoration: none;
         color: white;
         padding-right: 1.4%;
         padding-left: 1.4%;
     }
-    .navBar a:visited, .footer1 a:visited {
+    .navBar a:visited{
+        text-decoration: none;
+        color: white;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .footer1 a:visited {
         text-decoration: none;
         color: white;
         padding-right: 1.4%;
         padding-left: 1.4%;
     }
-    .navBar a:hover, .footer1 a:hover {
+    .navBar a:hover {
+        text-decoration: none;
+        color: lightgrey;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .footer1 a:hover {
         text-decoration: none;
         color: lightgrey;
         padding-right: 1.4%;
         padding-left: 1.4%;
     }
 
-    .navBar a:active, .footer1 a:active {
+    .navBar a:active{
+        text-decoration: none;
+        color: lightgrey;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    footer1 a:active {
         text-decoration: none;
         color: lightgrey;
         padding-right: 1.4%;
